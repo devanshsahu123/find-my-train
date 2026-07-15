@@ -121,11 +121,11 @@ object MockData {
             destination = "Narmadapuram (NDPM)",
             sourceCode = "RKMP",
             destinationCode = "NDPM",
-            departureTime = "15:40",
-            arrivalTime = "16:45",
+            departureTime = "16:13",
+            arrivalTime = "17:13",
             runningDays = listOf("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"),
             trainType = "Mail Express",
-            travelTime = "1h 05m",
+            travelTime = "1h 00m",
             classes = listOf("SL", "3A", "2A")
         ),
         TrainResponse(
@@ -135,11 +135,11 @@ object MockData {
             destination = "Sadulpur (SDLP)",
             sourceCode = "BPL",
             destinationCode = "SDLP",
-            departureTime = "19:15",
-            arrivalTime = "08:45",
+            departureTime = "14:05",
+            arrivalTime = "11:50",
             runningDays = listOf("Sun"),
             trainType = "Mail Express",
-            travelTime = "13h 30m",
+            travelTime = "21h 45m",
             classes = listOf("SL", "3A", "2A")
         ),
         TrainResponse(
@@ -149,11 +149,11 @@ object MockData {
             destination = "Rani Kamalapati (RKMP)",
             sourceCode = "NDPM",
             destinationCode = "RKMP",
-            departureTime = "12:30",
-            arrivalTime = "13:45",
+            departureTime = "18:34",
+            arrivalTime = "19:43",
             runningDays = listOf("Mon", "Wed", "Thu", "Fri", "Sat"),
             trainType = "Mail Express",
-            travelTime = "1h 15m",
+            travelTime = "1h 09m",
             classes = listOf("SL", "3A")
         ),
         TrainResponse(
@@ -163,11 +163,11 @@ object MockData {
             destination = "Rani Kamalapati (RKMP)",
             sourceCode = "NDPM",
             destinationCode = "RKMP",
-            departureTime = "09:10",
-            arrivalTime = "10:20",
+            departureTime = "06:44",
+            arrivalTime = "08:03",
             runningDays = listOf("Tue", "Sat"),
             trainType = "Superfast",
-            travelTime = "1h 10m",
+            travelTime = "1h 19m",
             classes = listOf("SL", "3A", "2A")
         ),
         TrainResponse(
@@ -177,11 +177,11 @@ object MockData {
             destination = "Rani Kamalapati (RKMP)",
             sourceCode = "NDPM",
             destinationCode = "RKMP",
-            departureTime = "18:20",
-            arrivalTime = "19:30",
+            departureTime = "17:10",
+            arrivalTime = "18:18",
             runningDays = listOf("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"),
             trainType = "Superfast",
-            travelTime = "1h 10m",
+            travelTime = "1h 08m",
             classes = listOf("SL", "3A", "2A", "1A")
         )
     )
@@ -212,24 +212,24 @@ object MockData {
             StationResponse("MMCT", "Mumbai Central", "08:35", null, 0, 1385, 2, "1", false)
         ),
         "12854" to listOf(
-            StationResponse("RKMP", "Rani Kamalapati", null, "15:40", 0, 0, 1, "1", true),
-            StationResponse("NDPM", "Narmadapuram", "16:45", null, 0, 75, 1, "2", false)
+            StationResponse("RKMP", "Rani Kamalapati", null, "16:13", 0, 0, 1, "1", true),
+            StationResponse("NDPM", "Narmadapuram", "17:13", null, 0, 75, 1, "2", false)
         ),
         "17020" to listOf(
-            StationResponse("BPL", "Bhopal Jn", null, "19:15", 0, 0, 1, "1", true),
-            StationResponse("SDLP", "Sadulpur", "08:45", null, 0, 850, 2, "3", false)
+            StationResponse("BPL", "Bhopal Jn", null, "14:05", 0, 0, 1, "1", true),
+            StationResponse("SDLP", "Sadulpur", "11:50", null, 0, 850, 2, "3", false)
         ),
         "11464" to listOf(
-            StationResponse("NDPM", "Narmadapuram", null, "12:30", 0, 0, 1, "1", true),
-            StationResponse("RKMP", "Rani Kamalapati", "13:45", null, 0, 75, 1, "2", false)
+            StationResponse("NDPM", "Narmadapuram", null, "18:34", 0, 0, 1, "1", true),
+            StationResponse("RKMP", "Rani Kamalapati", "19:43", null, 0, 75, 1, "2", false)
         ),
         "20843" to listOf(
-            StationResponse("NDPM", "Narmadapuram", null, "09:10", 0, 0, 1, "1", true),
-            StationResponse("RKMP", "Rani Kamalapati", "10:20", null, 0, 75, 1, "2", false)
+            StationResponse("NDPM", "Narmadapuram", null, "06:44", 0, 0, 1, "1", true),
+            StationResponse("RKMP", "Rani Kamalapati", "08:03", null, 0, 75, 1, "2", false)
         ),
         "12615" to listOf(
-            StationResponse("NDPM", "Narmadapuram", null, "18:20", 0, 0, 1, "1", true),
-            StationResponse("RKMP", "Rani Kamalapati", "19:30", null, 0, 75, 1, "2", false)
+            StationResponse("NDPM", "Narmadapuram", null, "17:10", 0, 0, 1, "1", true),
+            StationResponse("RKMP", "Rani Kamalapati", "18:18", null, 0, 75, 1, "2", false)
         )
     )
 
